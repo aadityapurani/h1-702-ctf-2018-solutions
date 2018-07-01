@@ -1,0 +1,23 @@
+
+IP : http://159.203.178.9
+Page: /README.html
+API Type: RPC
+End-Point: /rpc.php
+Param: method
+
+Calls:
+/getNotesMetata (GET)
+	Params: None
+	Response: count, epochs array
+
+/getNote (GET)
+	Params: id*
+	Response: note, epoch
+
+/createNote (POST)
+	Params: id, note*
+	Response: url
+
+/resetNotes (POST)
+	Params: none
+	Response: reset
